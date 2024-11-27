@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+@keyframes perfil-login{
+    0%{
+opacity: 0;
+transform: translateY(50px);
+    }
+
+    100%{
+opacity: 1;
+transform: translateY(none);
+    }
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    color: whitesmoke;
+}
+body{
+background: url(https://images.unsplash.com/photo-1731688687538-8c5a3550ef39?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ .container{
+    animation-name: perfil-login;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    box-shadow: 3px 0px 13px 15px rgba(82, 76, 76, 0.14);
+    width: 420px;
+    background: transparent;
+    border: 2px solid grey;
+    backdrop-filter: blur(20px);
+  border-radius: 10px ;
+   padding: 20px 40px;
+   
+}
+h1{
+    font-family: "Poppins", sans-serif;
+    font-size: 39px;
+    color: whitesmoke;
+    text-align: center;
+}
+.input-container{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+.input-container input{
+   width: 100%;
+   height: 100%;
+   background: transparent;
+   border: none;
+   outline: none; 
+   border: 2px solid rgb(166, 166, 166);
+   color: whitesmoke;
+   font-size: 16px;
+   padding: 20px 45px 20px 20px;
+   margin-bottom: 15px;
+
+}.input-container input::placeholder{
+    color: whitesmoke;
+}
+.input-container img{
+    position: absolute;
+    right: 24px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.input-container a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  font-size: 16px;
+  color: whitesmoke;
+  text-decoration: none;
+  
+}
+.input-container a:hover{
+    text-decoration: underline;
+}
+button{
+   
+    width: 100%;
+   border: none;
+   border-radius: 10px;
+   margin-top: 25px;
+    color:black;
+    cursor: pointer;
+    outline: none;
+    background-color: rgb(99, 66, 129);
+    font-size: larger;
+}
+button:hover{
+    background-color: rgba(126, 116, 116, 0.784);
+    color:rgb(39, 1, 122);
+    transition: 0.7s;
+}
+.nao-cadastrado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+.nao-cadastrado:hover{
+    text-decoration: underline;
+}
