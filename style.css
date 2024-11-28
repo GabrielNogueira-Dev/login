@@ -41,7 +41,7 @@ background: url(https://images.unsplash.com/photo-1731688687538-8c5a3550ef39?q=8
     backdrop-filter: blur(22px);
   border-radius: 10px ;
    padding: 20px 40px;
-   
+   -webkit-backdrop-filter: blur(22px);
 }
 h1{
    
